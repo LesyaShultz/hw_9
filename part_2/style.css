@@ -1,0 +1,110 @@
+body {
+  background-color: #3399cc;
+  font-family: "Lucida Sans", sans-serif;
+  color: white;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 20%;
+}
+
+.conteinet_weather {
+  box-sizing: border-box;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a:nth-child(1) li {
+  background-color: #3399cc;
+  width: 50%;
+  height: 120px;
+}
+a:nth-child(2) li {
+  width: 25%;
+  height: 120px;
+  background-color: #33cccc;
+}
+
+a:nth-child(3) li {
+  background-color: #996699;
+}
+
+a:nth-child(4) li {
+  height: 120px;
+  width: 25%;
+  background-color: rgb(31, 173, 173);
+}
+
+a:nth-child(5) li {
+  background-color: #e2674a;
+}
+
+a:nth-child(6) li {
+  background-color: #329242;
+}
+
+a:nth-child(7) li {
+  background-color: #3eca06;
+}
+
+a:nth-child(9) li {
+  width: 50%;
+  height: 120px;
+  background-color: rgb(206, 76, 145);
+}
+
+a:nth-child(10) li {
+  background-color: #91142f;
+}
+
+a:nth-child(11) li {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(212, 214, 70);
+}
+
+a:nth-child(3) li,
+a:nth-child(5) li,
+a:nth-child(6) li,
+a:nth-child(7) li,
+a:nth-child(8) li,
+a:nth-child(10) li {
+  width: 25%;
+  height: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  border: white solid 1px;
+  font-size: 18px;
+}
+
+ul {
+  padding: 0;
+  border: white solid 2px;
+  font-size: 0;
+}
+p {
+  margin-left: 20%;
+}
+
+a li {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+a li:hover {
+  opacity: 0.1;
+  transition: all 0.1s ease-in;
+}
+.wi {
+  color: rgb(151, 199, 206);
+}
